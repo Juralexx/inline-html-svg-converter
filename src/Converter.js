@@ -71,7 +71,7 @@ function Converter(props) {
     return (
         <RootInner>
             <h1>Convert inline HTML SVG to <span>{extension.extension}</span></h1>
-            <p>Use this free online SVG to PNG converter to convert SVG files to PNG images,
+            <p>Use this free online HTML SVG converter to convert inline HTML SVG to PNG, JPG or SVG images,
                 quickly and easily, without having to install any software.</p>
             <ul>
                 <li>
@@ -150,7 +150,7 @@ const RootInner = styled.div`
     position  : relative;
     width     : 100%;
     max-width : 992px;
-    padding   : 50px;
+    padding   : 30px 50px;
     margin    : 0 auto;
 
     h1 {
